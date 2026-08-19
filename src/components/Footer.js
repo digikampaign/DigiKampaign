@@ -178,13 +178,13 @@ export default function Footer() {
         <div className="site-footer-bottom-bar flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           {/* Logo + tagline */}
           <div className="flex items-center gap-4">
-            <div className="relative h-10 w-28 overflow-hidden shrink-0">
+            <a href="/" className="inline-block shrink-0">
               <img
                 alt="DigiKampaign"
-                className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-auto h-[280%] max-w-none"
+                className="h-12 w-auto object-contain hover:scale-105 transition-transform duration-300"
                 src="/logo.webp"
               />
-            </div>
+            </a>
             <p className="text-sm text-cream/40 max-w-xs">
               Growth strategy and creative craft, under one roof.
             </p>
