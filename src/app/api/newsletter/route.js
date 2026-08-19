@@ -98,7 +98,7 @@ export async function POST(request) {
 
     if (resendApiKey) {
       try {
-        const recipientEmail = (process.env.CONTACT_NOTIFICATION_EMAIL || 'infodigikampaign@gmail.com').trim();
+        const recipientEmail = (process.env.CONTACT_NOTIFICATION_EMAIL || 'info@digikampaign.com').trim();
         const fromEmail = (process.env.CONTACT_FROM_EMAIL || 'onboarding@resend.dev').trim();
 
         const resendRes = await fetch('https://api.resend.com/emails', {

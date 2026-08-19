@@ -131,9 +131,8 @@ export default function Footer() {
             {/* DigiKampaign Socials */}
             <div className="flex items-center gap-4 text-cream/60 mb-6">
               <a href="https://www.linkedin.com/company/digikampaign/" target="_blank" rel="noreferrer" className="hover:text-cream transition-colors"><LinkedInIcon /></a>
-              <a href="https://www.facebook.com/share/19DFkZ1pGA/" target="_blank" rel="noreferrer" className="hover:text-cream transition-colors"><FacebookIcon /></a>
               <a href="https://www.instagram.com/digikampaign" target="_blank" rel="noreferrer" className="hover:text-cream transition-colors"><InstagramIcon /></a>
-              <a href="mailto:Infodigikampaign@gmail.com" className="hover:text-cream transition-colors"><MailIcon /></a>
+              <a href="mailto:info@digikampaign.com" className="hover:text-cream transition-colors"><MailIcon /></a>
             </div>
 
             {/* Newsletter form */}
