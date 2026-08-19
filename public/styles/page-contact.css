@@ -23,7 +23,7 @@ h1,h2{font-weight:300}
 .rounded-xl{border-radius:0.75rem}
 .border{border-width:1px}
 .bg-\[\#25D366\]\/20{background-color:rgb(37 211 102/0.2)}
-.bg-royal\/15{background-color:rgb(79 99 217/0.15)}
+.bg-royal\/15{background-color:rgb(107 59 232/0.15)}
 .bg-white\/5{background-color:rgb(255 255 255/0.05)}
 .p-6{padding:1.5rem}
 .p-8{padding:2rem}
@@ -39,7 +39,7 @@ h1,h2{font-weight:300}
 .leading-\[1\.02\]{line-height:1.02}
 .text-\[\#25D366\]{--tw-text-opacity:1;color:rgb(37 211 102/var(--tw-text-opacity,1))}
 .opacity-50{opacity:0.5}
-.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0/0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0#0000),var(--tw-ring-shadow,0 0#0000),var(--tw-shadow)}
+.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(10 7 23/0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0#0000),var(--tw-ring-shadow,0 0#0000),var(--tw-shadow)}
 .ring-offset-background{--tw-ring-offset-color:hsl(var(--background))}
 .blur-\[150px\]{--tw-blur:blur(150px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}
 .transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4,0,0.2,1)}

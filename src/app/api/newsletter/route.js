@@ -23,13 +23,13 @@ function buildNewsletterEmailHtml(email) {
   const safeEmail = escapeHtml(email);
   return `
     <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;padding:24px;color:#111;border:1px solid #eee;border-radius:12px;background-color:#ffffff;">
-      <h2 style="color:#4f63d6;margin-top:0;">New Newsletter Subscriber!</h2>
+      <h2 style="color:#6B3BE8;margin-top:0;">New Newsletter Subscriber!</h2>
       <p style="font-size:15px;line-height:1.5;">A new subscriber has joined the DigiKampaign build-in-public newsletter list.</p>
       <hr style="border:none;border-top:1px solid #eee;margin:20px 0;" />
       <table style="width:100%;border-collapse:collapse;font-size:14px;">
         <tr>
           <td style="padding:8px 0;font-weight:bold;width:140px;">Subscriber Email:</td>
-          <td><a href="mailto:${safeEmail}" style="color:#4f63d6;text-decoration:none;">${safeEmail}</a></td>
+          <td><a href="mailto:${safeEmail}" style="color:#6B3BE8;text-decoration:none;">${safeEmail}</a></td>
         </tr>
         <tr>
           <td style="padding:8px 0;font-weight:bold;">Subscribed At:</td>

@@ -27,7 +27,7 @@ function buildEmailHtml({ name, email, phone, company, service, details }) {
   const detailsHtml = (details || 'No details provided.').replace(/\n/g, '<br/>');
   return `
     <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;padding:20px;color:#111;border:1px solid #eee;border-radius:12px;">
-      <h2 style="color:#4f63d6;margin-top:0;">New Project Inquiry</h2>
+      <h2 style="color:#6B3BE8;margin-top:0;">New Project Inquiry</h2>
       <p>You have received a new contact submission from your website.</p>
       <hr style="border:none;border-top:1px solid #eee;margin:20px 0;" />
       <table style="width:100%;border-collapse:collapse;">
