@@ -2589,6 +2589,48 @@ img {
   }
 }
 
+/* ── Sitewide Text & Card Bleeding Prevention ────────────────────────────────
+ * Ensure text and CTA banner contents fit within parent cards without bleeding
+ * ─────────────────────────────────────────────────────────────────────────── */
+.glass.rounded-3xl {
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  max-width: 100% !important;
+}
+
+/* The inner text wrapper needs width:100% so it fills the card, and min-width:0
+   prevents flex blowout. Do NOT set max-width:100% here — it would override the
+   Tailwind max-w-3xl class that controls text-column width. */
+.glass.rounded-3xl > div:not(.absolute),
+.glass.rounded-3xl .relative:not(.absolute) {
+  width: 100% !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Force headings and paragraphs inside glass CTA cards to wrap normally.
+   Use max-width on paragraphs to keep line-length readable on large screens. */
+.glass.rounded-3xl h1,
+.glass.rounded-3xl h2,
+.glass.rounded-3xl h3 {
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+}
+
+.glass.rounded-3xl p {
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  max-width: 42rem !important;   /* ~65-70 chars per line — never bleeds */
+}
+
+/* Sitewide sensible default — break long words only when necessary */
+h1, h2, h3, h4, h5, h6, p {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
 /* ── Fix 2: Text / content overflow — prevent any text from breaking out of
  *    viewport horizontally. Applies sitewide on mobile.
  * ─────────────────────────────────────────────────────────────────────────── */
