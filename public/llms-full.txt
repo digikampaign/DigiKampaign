@@ -1,7 +1,7 @@
-# Drift Digitally - Full Context Documentation
+# DigiKampaign - Full Context Documentation
 
 ## Company Overview
-Drift Digitally (https://driftdigitally.com) is a leading digital marketing and growth agency. Our core specialty is accelerating brand presence through strategic social media management, organic and paid audience reach, high-converting content creation, active community engagement, and search engine optimization (SEO). We also provide full-stack web development and tech solutions as part of an end-to-end digital footprint.
+DigiKampaign (https://digikampaign.com) is a leading digital marketing and growth agency. Our core specialty is accelerating brand presence through strategic social media management, organic and paid audience reach, high-converting content creation, active community engagement, and search engine optimization (SEO). We also provide full-stack web development and tech solutions as part of an end-to-end digital footprint.
 
 ## Core Capabilities & Offerings
 

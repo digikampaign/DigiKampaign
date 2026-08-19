@@ -1,15 +1,15 @@
 import "./globals.css";
 
 export const metadata = {
-  metadataBase: new URL("https://driftdigitally.com"),
+  metadataBase: new URL("https://digikampaign.com"),
   title: {
-    default: "Drift Digitally | Social Media Management & Digital Growth Agency",
-    template: "%s | Drift Digitally",
+    default: "DigiKampaign | Social Media Management & Digital Growth Agency",
+    template: "%s | DigiKampaign",
   },
   description:
-    "Drift Digitally is a premier social media management, organic reach, content creation, and SEO growth agency helping brands scale audience engagement and digital footprint.",
+    "DigiKampaign is a premier social media management, organic reach, content creation, and SEO growth agency helping brands scale audience engagement and digital footprint.",
   keywords: [
-    "Drift Digitally",
+    "DigiKampaign",
     "Social Media Management",
     "Social Media Agency",
     "Content Creation",
@@ -20,21 +20,21 @@ export const metadata = {
     "Web Development Agency",
     "Brand Engagement Strategy",
   ],
-  authors: [{ name: "Drift Digitally", url: "https://driftdigitally.com" }],
-  creator: "Drift Digitally",
-  publisher: "Drift Digitally",
+  authors: [{ name: "DigiKampaign", url: "https://digikampaign.com" }],
+  creator: "DigiKampaign",
+  publisher: "DigiKampaign",
   openGraph: {
-    title: "Drift Digitally | Social Media Management & Digital Growth Agency",
+    title: "DigiKampaign | Social Media Management & Digital Growth Agency",
     description:
-      "Accelerate brand reach, social engagement, viral content creation, and search engine visibility with Drift Digitally.",
-    url: "https://driftdigitally.com",
-    siteName: "Drift Digitally",
+      "Accelerate brand reach, social engagement, viral content creation, and search engine visibility with DigiKampaign.",
+    url: "https://digikampaign.com",
+    siteName: "DigiKampaign",
     images: [
       {
-        url: "https://driftdigitally.com/logo.png",
+        url: "https://digikampaign.com/logo.png",
         width: 2000,
         height: 2000,
-        alt: "Drift Digitally Digital Growth & Social Media Agency",
+        alt: "DigiKampaign Digital Growth & Social Media Agency",
       },
     ],
     locale: "en_US",
@@ -42,10 +42,10 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Drift Digitally | Social Media Management & Digital Growth Agency",
+    title: "DigiKampaign | Social Media Management & Digital Growth Agency",
     description:
-      "Accelerate brand reach, social engagement, viral content creation, and search engine visibility with Drift Digitally.",
-    images: ["https://driftdigitally.com/logo.png"],
+      "Accelerate brand reach, social engagement, viral content creation, and search engine visibility with DigiKampaign.",
+    images: ["https://digikampaign.com/logo.png"],
   },
   icons: {
     icon: [
@@ -59,20 +59,20 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://driftdigitally.com",
+    canonical: "https://digikampaign.com",
   },
 };
 
 const jsonLdOrganization = {
   "@context": "https://schema.org",
   "@type": ["Organization", "MarketingAgency", "ProfessionalService"],
-  name: "Drift Digitally",
-  alternateName: ["DriftDigitally", "Drift Digitally Agency"],
-  url: "https://driftdigitally.com",
-  logo: "https://driftdigitally.com/logo.png",
-  image: "https://driftdigitally.com/logo.png",
+  name: "DigiKampaign",
+  alternateName: ["DigiKampaign", "DigiKampaign Agency"],
+  url: "https://digikampaign.com",
+  logo: "https://digikampaign.com/logo.png",
+  image: "https://digikampaign.com/logo.png",
   description:
-    "Drift Digitally is a premier digital marketing agency specializing in social media handling, organic reach expansion, audience engagement strategies, viral content production, SEO, and full-stack web development.",
+    "DigiKampaign is a premier digital marketing agency specializing in social media handling, organic reach expansion, audience engagement strategies, viral content production, SEO, and full-stack web development.",
   knowsAbout: [
     "Social Media Management",
     "Social Media Marketing",
@@ -127,9 +127,9 @@ const jsonLdOrganization = {
 const jsonLdWebSite = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Drift Digitally",
-  alternateName: ["DriftDigitally", "Drift Digitally Agency"],
-  url: "https://driftdigitally.com",
+  name: "DigiKampaign",
+  alternateName: ["DigiKampaign", "DigiKampaign Agency"],
+  url: "https://digikampaign.com",
 };
 
 export default function RootLayout({ children }) {

@@ -1,9 +1,9 @@
 export default function manifest() {
   return {
-    name: "Drift Digitally",
-    short_name: "Drift Digitally",
+    name: "DigiKampaign",
+    short_name: "DigiKampaign",
     description:
-      "Drift Digitally — Premium Digital Agency building brands that grow and stand out.",
+      "DigiKampaign — Premium Digital Agency building brands that grow and stand out.",
     start_url: "/",
     display: "standalone",
     background_color: "#0a0a0a",

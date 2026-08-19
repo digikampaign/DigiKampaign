@@ -55,7 +55,7 @@ function buildClientConfirmationEmailHtml({ name, service }) {
   return `
     <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;padding:24px;color:#111;border:1px solid #e0e0e0;border-radius:12px;background-color:#ffffff;">
       <div style="text-align:center;padding-bottom:16px;border-bottom:1px solid #eeeeee;">
-        <h2 style="color:#2a3ba7;margin:0;font-size:24px;">Drift Digitally</h2>
+        <h2 style="color:#2a3ba7;margin:0;font-size:24px;">DigiKampaign</h2>
         <p style="color:#666666;font-size:13px;margin-top:4px;">Branding, Growth & Creative Studio</p>
       </div>
       <div style="padding:20px 0;">
@@ -74,7 +74,7 @@ function buildClientConfirmationEmailHtml({ name, service }) {
       </div>
       <hr style="border:none;border-top:1px solid #eeeeee;margin:16px 0;" />
       <div style="text-align:center;font-size:12px;color:#888888;line-height:1.5;">
-        <p style="margin:0;">Drift Digitally • www.driftdigitally.com</p>
+        <p style="margin:0;">DigiKampaign • www.digikampaign.com</p>
         <p style="margin:4px 0 0 0;">This is an automated acknowledgment of your inquiry.</p>
       </div>
     </div>`;
@@ -136,7 +136,7 @@ export async function POST(request) {
 
     if (resendApiKey) {
       try {
-        const recipientEmail = (process.env.CONTACT_NOTIFICATION_EMAIL || 'infodriftdigitally@gmail.com').trim();
+        const recipientEmail = (process.env.CONTACT_NOTIFICATION_EMAIL || 'infodigikampaign@gmail.com').trim();
         const fromEmail = (process.env.CONTACT_FROM_EMAIL || 'onboarding@resend.dev').trim();
         
         // 2a. Admin Notification Email
@@ -147,7 +147,7 @@ export async function POST(request) {
             'Authorization': `Bearer ${resendApiKey}`,
           },
           body: JSON.stringify({
-            from:     `Drift Digitally Leads <${fromEmail}>`,
+            from:     `DigiKampaign Leads <${fromEmail}>`,
             to:       [recipientEmail],
             reply_to: email,
             subject:  `New Lead: ${name} (${service || 'General Inquiry'})`,
@@ -168,9 +168,9 @@ export async function POST(request) {
               'Authorization': `Bearer ${resendApiKey}`,
             },
             body: JSON.stringify({
-              from:     `Drift Digitally <${fromEmail}>`,
+              from:     `DigiKampaign <${fromEmail}>`,
               to:       [email],
-              subject:  `We've Received Your Query! — Drift Digitally`,
+              subject:  `We've Received Your Query! — DigiKampaign`,
               html:     buildClientConfirmationEmailHtml({ name, service }),
             }),
           });

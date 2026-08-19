@@ -22,7 +22,7 @@ export const BLOG_CONTENT = {
   },
 
   "How We Use AI to Cut Content Production Time in Half": {
-    intro:   "AI content tools are often used as lazy shortcuts. At Drift Digitally, we treat AI as a force multiplier to move faster without sacrificing our premium quality guidelines. Here is our process.",
+    intro:   "AI content tools are often used as lazy shortcuts. At DigiKampaign, we treat AI as a force multiplier to move faster without sacrificing our premium quality guidelines. Here is our process.",
     content: `<h3>AI as a Draft Generator, Not a Final Polish</h3>
 <p>The biggest mistake content teams make is copy-pasting raw output from ChatGPT or Claude. AI outputs are generic, lack brand voice, and sound robotic. Instead, we use custom-trained prompts to generate structural outlines and initial research drafts.</p>
 <h3>Human-in-the-Loop Refinement</h3>
@@ -86,6 +86,6 @@ export const BLOG_CONTENT = {
 export const BLOG_CONTENT_FALLBACK = {
   intro:   "Here is a detailed guide on this topic. Discover best practices and strategic approaches in modern branding, performance marketing, and digital growth.",
   content: "<p>Detailed article content is currently being finalized. Check back soon for the full breakdown of actionable tips and insights from our team.</p>",
-  author:  "Drift Digitally Editor",
+  author:  "DigiKampaign Editor",
   date:    "August 2026",
 };

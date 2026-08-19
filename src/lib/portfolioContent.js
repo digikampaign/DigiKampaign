@@ -373,12 +373,12 @@ export const PORTFOLIO_CONTENT = {
 };
 
 export const PORTFOLIO_CONTENT_FALLBACK = {
-  client: "Drift Client Partner",
+  client: "DigiKampaign Client Partner",
   service: "Branding & Digital Growth",
   year: "2026",
   deliverables: ["Brand Identity", "Digital Strategy", "Web Development", "Growth Marketing"],
   results: "High ROI • Exceptional Engagement",
-  intro: "A showcase of custom craft, strategic performance, and elevated digital experience built by Drift Digitally.",
+  intro: "A showcase of custom craft, strategic performance, and elevated digital experience built by DigiKampaign.",
   overview: "This project reflects our end-to-end approach to brand building — combining premium aesthetic design with data-driven growth strategies.",
   challenge: "Overcoming competitive noise and establishing strong market positioning through clear brand narrative and user-centric design.",
   solution: "We delivered a cohesive digital solution tailored to the client's growth goals, combining custom visual design with robust web architecture.",

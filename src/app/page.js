@@ -2,9 +2,9 @@ import content from "./processedContent.json";
 import PageShell from "@/components/PageShell";
 
 export const metadata = {
-  title: "Drift Digitally | Home",
+  title: "DigiKampaign | Home",
   description:
-    "Drift Digitally — We Build Brands That Grow, Look Premium, and Never Blend In.",
+    "DigiKampaign — We Build Brands That Grow, Look Premium, and Never Blend In.",
 };
 
 export default function HomePage() {

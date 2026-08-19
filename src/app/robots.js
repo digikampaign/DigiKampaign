@@ -6,6 +6,6 @@ export default function robots() {
         allow: "/",
       },
     ],
-    sitemap: "https://driftdigitally.com/sitemap.xml",
+    sitemap: "https://digikampaign.com/sitemap.xml",
   };
 }

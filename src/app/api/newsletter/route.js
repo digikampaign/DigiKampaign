@@ -24,7 +24,7 @@ function buildNewsletterEmailHtml(email) {
   return `
     <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;padding:24px;color:#111;border:1px solid #eee;border-radius:12px;background-color:#ffffff;">
       <h2 style="color:#4f63d6;margin-top:0;">New Newsletter Subscriber!</h2>
-      <p style="font-size:15px;line-height:1.5;">A new subscriber has joined the Drift Digitally build-in-public newsletter list.</p>
+      <p style="font-size:15px;line-height:1.5;">A new subscriber has joined the DigiKampaign build-in-public newsletter list.</p>
       <hr style="border:none;border-top:1px solid #eee;margin:20px 0;" />
       <table style="width:100%;border-collapse:collapse;font-size:14px;">
         <tr>
@@ -37,7 +37,7 @@ function buildNewsletterEmailHtml(email) {
         </tr>
       </table>
       <hr style="border:none;border-top:1px solid #eee;margin:20px 0;" />
-      <p style="font-size:13px;color:#777;margin:0;">This is an automated notification from your Drift Digitally website newsletter registration handler.</p>
+      <p style="font-size:13px;color:#777;margin:0;">This is an automated notification from your DigiKampaign website newsletter registration handler.</p>
     </div>`;
 }
 
@@ -98,7 +98,7 @@ export async function POST(request) {
 
     if (resendApiKey) {
       try {
-        const recipientEmail = (process.env.CONTACT_NOTIFICATION_EMAIL || 'infodriftdigitally@gmail.com').trim();
+        const recipientEmail = (process.env.CONTACT_NOTIFICATION_EMAIL || 'infodigikampaign@gmail.com').trim();
         const fromEmail = (process.env.CONTACT_FROM_EMAIL || 'onboarding@resend.dev').trim();
 
         const resendRes = await fetch('https://api.resend.com/emails', {
@@ -108,7 +108,7 @@ export async function POST(request) {
             'Authorization': `Bearer ${resendApiKey}`,
           },
           body: JSON.stringify({
-            from: `Drift Digitally Newsletter <${fromEmail}>`,
+            from: `DigiKampaign Newsletter <${fromEmail}>`,
             to: [recipientEmail],
             reply_to: email,
             subject: `New Subscriber: ${email}`,

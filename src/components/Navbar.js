@@ -56,11 +56,11 @@ export default function Navbar() {
             data-testid="logo-link"
             className="global-logo-link"
             href="/"
-            aria-label="Drift Digitally Home"
+            aria-label="DigiKampaign Home"
           >
             <div className="global-logo-container">
               <img
-                alt="Drift Digitally"
+                alt="DigiKampaign"
                 className="global-logo-img"
                 src="/logo.webp"
               />

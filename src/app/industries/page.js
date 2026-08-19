@@ -2,7 +2,7 @@ import content from "./processedContent.json";
 import PageShell from "@/components/PageShell";
 
 export const metadata = {
-  title: "Drift Digitally | Industries",
+  title: "DigiKampaign | Industries",
   description: "Industries we serve — from luxury brands to e-commerce.",
 };
 

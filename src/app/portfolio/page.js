@@ -2,7 +2,7 @@ import content from "./processedContent.json";
 import PageShell from "@/components/PageShell";
 
 export const metadata = {
-  title: "Drift Digitally | Portfolio",
+  title: "DigiKampaign | Portfolio",
   description: "See our work — campaigns, brands, and digital experiences.",
 };
 

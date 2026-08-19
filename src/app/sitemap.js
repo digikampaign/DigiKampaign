@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://driftdigitally.com";
+  const baseUrl = "https://digikampaign.com";
   const routes = [
     "",
     "/about",

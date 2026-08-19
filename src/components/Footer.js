@@ -128,12 +128,12 @@ export default function Footer() {
 
           {/* ── Right: Newsletter + Nav Grid ───────────────────────── */}
           <div className="lg:justify-self-end w-full max-w-md">
-            {/* Drift Digitally Socials */}
+            {/* DigiKampaign Socials */}
             <div className="flex items-center gap-4 text-cream/60 mb-6">
-              <a href="https://www.linkedin.com/company/drift-digitally/" target="_blank" rel="noreferrer" className="hover:text-cream transition-colors"><LinkedInIcon /></a>
+              <a href="https://www.linkedin.com/company/digikampaign/" target="_blank" rel="noreferrer" className="hover:text-cream transition-colors"><LinkedInIcon /></a>
               <a href="https://www.facebook.com/share/19DFkZ1pGA/" target="_blank" rel="noreferrer" className="hover:text-cream transition-colors"><FacebookIcon /></a>
-              <a href="https://www.instagram.com/driftdigitally" target="_blank" rel="noreferrer" className="hover:text-cream transition-colors"><InstagramIcon /></a>
-              <a href="mailto:Infodriftdigitally@gmail.com" className="hover:text-cream transition-colors"><MailIcon /></a>
+              <a href="https://www.instagram.com/digikampaign" target="_blank" rel="noreferrer" className="hover:text-cream transition-colors"><InstagramIcon /></a>
+              <a href="mailto:Infodigikampaign@gmail.com" className="hover:text-cream transition-colors"><MailIcon /></a>
             </div>
 
             {/* Newsletter form */}
@@ -180,7 +180,7 @@ export default function Footer() {
           <div className="flex items-center gap-4">
             <div className="relative h-10 w-28 overflow-hidden shrink-0">
               <img
-                alt="Drift Digitally"
+                alt="DigiKampaign"
                 className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-auto h-[280%] max-w-none"
                 src="/logo.webp"
               />

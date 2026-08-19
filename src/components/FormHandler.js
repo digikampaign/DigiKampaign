@@ -65,7 +65,7 @@ function prefillFormFromURL(form) {
   }
 
   if (detailsInput && !detailsInput.value) {
-    detailsInput.value = `Hi Drift team,\n\nI am interested in getting started with the [ ${decodedParam} ] package.\n\nPlease share the next steps and timeline for this project.`;
+    detailsInput.value = `Hi DigiKampaign team,\n\nI am interested in getting started with the [ ${decodedParam} ] package.\n\nPlease share the next steps and timeline for this project.`;
   }
 }
 
