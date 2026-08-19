@@ -62,7 +62,7 @@ export default function Navbar() {
               <img
                 alt="DigiKampaign"
                 className="global-logo-img"
-                src="/logo.webp"
+                src="/logo-dk.webp"
               />
             </div>
           </a>

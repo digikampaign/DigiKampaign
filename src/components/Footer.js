@@ -182,7 +182,7 @@ export default function Footer() {
               <img
                 alt="DigiKampaign"
                 className="h-12 w-auto object-contain hover:scale-105 transition-transform duration-300"
-                src="/logo.webp"
+                src="/logo-dk.webp"
               />
             </a>
             <p className="text-sm text-cream/40 max-w-xs">
