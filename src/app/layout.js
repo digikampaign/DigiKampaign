@@ -61,6 +61,9 @@ export const metadata = {
   alternates: {
     canonical: "https://digikampaign.com",
   },
+  verification: {
+    google: "BsoK7AhB6aETu_ZF7zQ8YmR7f3-1UGoqX1Xuw8_fnpI",
+  },
 };
 
 const jsonLdOrganization = {
